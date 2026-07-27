@@ -1,0 +1,26 @@
+Understanding risk is a key concept for players who can consistently rally and play points with an opponent. Every shot comes with a certain of risk to take. There is no definitive answer as to when exactly a player should take more or less risk - the player needs to experiment and find what works best for them. A simple starting point will be the scoreline. Leading in score, means more opportunity to take risks, while being behind in score means less opportunity to take risks. 
+And we will break it down into four main types of risk.
+
+Risk in terms of court geometry:
+The tennis court is a rectangle, with a net that is lowest in the middle and heightens towards the sidelines. Using these facts about the tennis court, we can distinguish the risks being taken among these three shot directions: cross-court, down the line, and middle. 
+Playing shots middle offers players the least amount of risk in multiple ways: the net is lower in the middle, the middle area is a lot larger and forgiving, and the opponent will have less angle to work with. 
+Playing shots cross court involves hitting the ball diagonally across the net. Cross court is mid level of risk. It utilises the lower part of the net and still a sizable target area. But opens the court angles up for the opponent. 
+Playing shots down the line is where the player hits the ball straight and parallel to the sideline over the higher part of the net. This shot involves higher risk due to the net height, smaller target area and giving the opponent more room to hit into. 
+
+Risk in terms of contact heights with the ball:
+We can break down the height of contact into 3 sections: below hip level, hip to shoulder height, and shoulder to head height. The risk of shots being played at different heights will vary amongst different shots depending on grips, movement and more. This is a general guide.
+Contact below hip level: tends to be the riskiest height of the three. The player will need to clear the net with enough spin and height, whilst ensuring it’s not overdone resulting in hitting the ball out. 
+Contact between hip and shoulder height: tends to be the least risk. The vast majority of shots are hit at this height. Player’s seem to be able to balance spin and power better at this height. 
+Contact between shoulder and head height: tends to be middle risk. The net is no longer a major concern, however overhitting becomes more likely. 
+
+Risk in terms of incoming ball and outputting ball speeds:
+We can break down the incoming and outputting ball speeds into accelerating and decelerating. A player’s perception of whether a ball is accelerating or decelerating is up to their discretion, level, and experience. We will pair up this section with incoming and outputting ball speeds.
+Accelerating incoming and accelerating outputting: is the highest risk combination. Since the shot from the opponent is already accelerating, further accelerating your own shot can lead to losing control a lot of the time. 
+Accelerating incoming and decelerating outputting: is a lower risk combination. By deccelerating the incoming faster shot, we are able to control the ball better, reducing chances of an error being made. 
+Decelerating incoming and accelerating outputting: is a medium risk combination. Since the incoming ball is of slower speed, accelerating your own shot is a good choice as it can help the player gain offensive advantage and doesn’t pose too much of a risk as the a slower incoming ball gives the player more time to prepare. 
+Decelerating incoming and decelerating outputting: is a lower risk combination. Since both shots are going to be slowed down, there is a lot less risk behind it. However, this combination is quite rarely seen as people typically like to use the opportunity of a decelerated incoming shot to attack. 
+
+Risk in terms of movement:
+We will break this section down into movement after the incoming ball is hit versus before the incoming ball is hit. Both types of movement should be used as they provide different benefits. 
+Moving after the incoming ball is hit: is a lower risk play as the player does not need to do much guess work. However, it can be tough to neutralise the opponents offence if the player is always moving after the incoming ball is hit. 
+Moving before the incoming ball is hit: is a higher risk play as the player does need to perform strong guess work. The player risks guessing wrong but also is rewarded highly if guessed correct. 
