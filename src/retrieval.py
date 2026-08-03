@@ -20,8 +20,14 @@ from embedder import model
 
 
 def load():
-    embeddings = np.load('store/embeddings.npz')
-    with open('store/metadata.json', 'r') as f:
+    # embeddings = np.load('store/embeddings.npz')
+    # with open('store/metadata.json', 'r') as f:
+    #     metadata = json.load(f)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    store_dir = os.path.join(script_dir, '..', 'store')
+    
+    embeddings = np.load(os.path.join(store_dir, 'embeddings.npz'))
+    with open(os.path.join(store_dir, 'metadata.json'), 'r') as f:
         metadata = json.load(f)
 
     combined_data = []
@@ -44,7 +50,7 @@ def question_embedding(question):
 def cosine_similarity(vec_a, vec_b):
     return (np.dot(vec_a, vec_b)) / (np.linalg.norm(vec_a) * np.linalg.norm(vec_b))
 
-def retrieval(question, n_results = 3):
+def retrieval(question, n_results = 5):
     data = load()
     q_embedding = question_embedding(question)
 

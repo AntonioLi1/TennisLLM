@@ -1,0 +1,138 @@
+[
+    {
+        "question": "Why is it important to stay balanced in tennis?",
+        "source": "balance.txt",
+        "expected_keywords": ["perform", "complex", "start","correctly", "position"]
+    },
+    {
+        "question": "How do I know if I am staying balanced?",
+        "source": "balance.txt",
+        "expected_keywords": ["chest","upright", "head", "still", "hold", "finish", "position"]
+    },
+    {
+        "question": "How do I improve my balance",
+        "source": "balance.txt",
+        "expected_keywords": ["hold", "finish", "position", "stop", "feet"]
+    },
+    {
+        "question": "Why can't I control my forehand",
+        "source": "forehand.txt",
+        "expected_keywords": ["spin", "forwards", "follow", "through", "head", "chest", "still"]
+    },
+    {
+        "question": "How do i stop hitting my forehand so late?",
+        "source": "forehand.txt",
+        "expected_keywords": ["early", "preparation", "push", "hip", "earlier"]
+    },
+    {
+        "question": "How do I put more or less spin on my forehand?",
+        "source": "forehand.txt",
+        "expected_keywords": ["height","follow", "through", "arc"]
+    },
+    {
+        "question": "What should my backhand grip be?",
+        "source": "backhand.txt",
+        "expected_keywords": ["hammer", "continental", "grip", "handshake","dominant"]
+    },
+    {
+        "question": "How do I create the wrist lag on the backhand?",
+        "source": "backhand.txt",
+        "expected_keywords": ["hip", "push", "drop","loose"]
+    },
+    {
+        "question": "What is the trophy position in the serve?",
+        "source": "serve.txt",
+        "expected_keywords": ["non", "dominant", "arm", "pointing", "up", "elbow", "below", "shoulder", "level", "quarter", "squat"]
+    },
+    {
+        "question": "Why am I hitting my serves long?",
+        "source": "serve.txt",
+        "expected_keywords": ["under", "ball","top", "extend"]
+    },
+    {
+        "question": "What is the footwork for the forehand volley?",
+        "source": "forehand_volley.txt",
+        "expected_keywords": ["incoming","forward","across"]
+    },
+    {
+        "question": "Why is my forehand volley going in the net and how do I fix it?",
+        "source": "forehand_volley.txt",
+        "expected_keywords": ["racket", "face", "closed", "open"]
+    },
+    {
+        "question": "I am catching my backhand volleys late. Can you help me with that?",
+        "source": "backhand_volley.txt",
+        "expected_keywords": ["prepare", "arms", "early","step"]
+    },
+    {
+        "question": "What do I do with my non-hitting arm on the backhand volley",
+        "source": "backhand_volley.txt",
+        "expected_keywords": ["extend ","backwards"]
+    },
+    {
+        "question": "My forehand slice keeps floating upwards too much. What can I do?",
+        "source": "forehand_slice.txt",
+        "expected_keywords": ["too", "open", "behind", "forwards"]
+    },
+    {
+        "question": "On the forehand slice, I keep shanking the ball. Why does this happen?",
+        "source": "forehand_slice.txt",
+        "expected_keywords": ["tracking","space", "head", "still"]
+    },
+    {
+        "question": "Do I need to brush the backhand slice?",
+        "source": "backhand_slice.txt",
+        "expected_keywords": ["brush","no"]
+    },
+    {
+        "question": "Where should my racket face at contact?",
+        "source": "backhand_slice.txt",
+        "expected_keywords": ["upwards","depend"]
+    },
+    {
+        "question": "I keep catching the forehand return late. How can I fix this?",
+        "source": "forehand_return_of_serve.txt",
+        "expected_keywords": ["abbreviated","unit", "turn"]
+    },
+    {
+        "question": "My opponent hits a very fast serve. And I feel like my feet aren't moving correctly.",
+        "source": "forehand_return_of_serve.txt",
+        "expected_keywords": ["split", "step", "diagonal"]
+    },
+    {
+        "question": "Does the follow through change with the backhand return?",
+        "source": "backhand_return_of_serve.txt",
+        "expected_keywords": ["extend","above shoulder"]
+    },
+    {
+        "question": "What is the benefit of split stepping before hitting a backhand return?",
+        "source": "backhand_return_of_serve.txt",
+        "expected_keywords": ["balance","ready"]
+    },
+    {
+        "question": "What kind of steps should I take when moving backwards to hit a smash?",
+        "source": "smashes.txt",
+        "expected_keywords": ["cross", "over", "dominant", "foot"]
+    },
+    {
+        "question": "Does the smash also need a trophy position?",
+        "source": "smashes.txt",
+        "expected_keywords": ["Yes"]
+    },
+    {
+        "question": "Can you explain how the geometry of the court affects my risk taking in points?",
+        "source": "risk.txt",
+        "expected_keywords": ["dimensions","net", "height"]
+    },
+    {
+        "question": "Should I be taking more risk on low balls or less risk?",
+        "source": "risk.txt",
+        "expected_keywords": ["Less","net"]
+    },
+    {
+        "question": "Explain movement in tennis for me?",
+        "source": "movement.txt",
+        "expected_keywords": ["reason"]
+    }
+]
+    
