@@ -16,6 +16,6 @@ Fix: hit and brush over the ball while following through
 Hitting the ball out in terms of width: caused by the player throwing their body around at contact and/or hitting the ball at an extreme angle. 
 Fix: keeping the chest straight on with the ball at contact and think about the racket face should face where the player is aiming at contact. 
 Late contact with the ball: when the ball flies past the hip before contact. The player would feel like they are making contact very close to their body. 
-Fix: prepare the arms as soon as the player sees the ball fly towards their forehand and begin the swing earlier. Ensure a smaller preparation for the return of serve. 
+Fix: prepare the arms early, as soon as the player sees the ball fly towards their forehand and begin the swing earlier. Ensure a smaller preparation for the return of serve. 
 Mishitting the ball: when the ball hits the player’s racket frame instead of the strings. 
 Fix: tracking the ball all the way to contact and watching the racket make contact with the ball. Keep the head and chest still at contact and hit through the ball. Another great cue is to keep the chest side on for longer during contact. This prevents the player from throwing their torso at contact, which frequently leads to mishitting the ball.

@@ -20,6 +20,7 @@ def generator(sorted_chunks, question):
 
     response = client.messages.create(
         max_tokens=1024,
+        temperature=0,
         messages=[
             {
                 "role": "user",

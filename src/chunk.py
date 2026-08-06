@@ -2,8 +2,6 @@ import os
 
 def chunk_text(documents, chunk_size = 150, overlap=30):
     chunked_document = []
-
-
     for document in documents:
         text_pointer_start = 0
         text_pointer_end = 0
@@ -12,15 +10,20 @@ def chunk_text(documents, chunk_size = 150, overlap=30):
         text = document['text']
         words = text.split()
         length = len(words)
-
+        cleaned_doc_name = document['source'].removesuffix(".txt").replace("_", " ")
+        #print(f"CLEANED DOC NAME: {cleaned_doc_name}")
         while text_pointer_start < length:
+
             text_pointer_end = text_pointer_start + chunk_size
             if text_pointer_end > length:
                 text_pointer_end = length
             
-            chunk_words = words[text_pointer_start:text_pointer_end]
-            chunked_text = ' '.join(chunk_words)
             
+            chunk_words = words[text_pointer_start:text_pointer_end]
+            chunk_body = ' '.join(chunk_words)
+            chunked_text = f"{cleaned_doc_name}: {chunk_body}"
+
+            #print(f"chunked text: {chunked_text} \n")
             chunked_document.append({
                 'text': chunked_text,
                 'source': document['source'],

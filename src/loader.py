@@ -3,7 +3,7 @@ import os
 def load_corpus(corpus_directory):
     documents = []
     for filename in os.listdir(corpus_directory):
-        with open(os.path.join(corpus_directory, filename), 'r') as file:
+        with open(os.path.join(corpus_directory, filename), 'r', encoding='utf-8') as file:
             documents.append({
                 'text': file.read(),
                 'source': filename

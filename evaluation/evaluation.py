@@ -14,6 +14,9 @@ with open('eval_set.json', 'r') as file:
 
 #print(type(eval_data))
 
+results = []
+
+
 for item in eval_data:
     question = item['question']
     source = item['source']
@@ -22,9 +25,19 @@ for item in eval_data:
     retrieved = retrieval(question)
     response = generator(retrieved, question)
 
-    pattern = re.compile(r'\b(' + '|'.join(keywords) + r')\b', re.IGNORECASE)
-    matches = pattern.findall(response)
-    themes_found = [kw for kw in keywords if kw.lower() in response.lower()]
+    # groundedness — does the FINAL ANSWER contain the expected keywords?
+    themes_found_in_answer = [kw for kw in keywords if kw.lower() in response.lower()]
+    groundedness_score = len(themes_found_in_answer) / len(keywords)
 
+    # retrieval check — did the right document get retrieved at all?
+    retrieved_sources = [r['source'] for r in retrieved]
+    source_hit = source in retrieved_sources
 
-    print(len(matches) / len(keywords))
+    results.append({
+        'question': question,
+        'source_hit': source_hit,
+        'groundedness_score': groundedness_score,
+        'themes_missing': [kw for kw in keywords if kw not in themes_found_in_answer]
+    })
+
+    print(f"{question[:50]:<52} | hit: {source_hit} | score: {groundedness_score:.2f} | missing: {[kw for kw in keywords if kw not in themes_found_in_answer]}")
