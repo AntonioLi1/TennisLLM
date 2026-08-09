@@ -2,7 +2,7 @@ from retrieval import retrieval
 from loader import load_corpus
 from chunk import chunk_text
 
-results = retrieval("I keep catching the forehand return late. How can I fix this?", n_results=5)
+results = retrieval("Explain movement in tennis for me?", n_results=5)
 
 for r in results:
     print(f"Source: {r['source']} | Chunk: {r['chunk_index']} | Score: {r['similarity_score']:.3f}")

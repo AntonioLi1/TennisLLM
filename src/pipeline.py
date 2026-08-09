@@ -5,8 +5,8 @@ from store import store
 from retrieval import retrieval
 from generator import generator
 
-corpusURL = 'D:\Desktop\Projects\TennisLLM\corpus/'
-#corpusURL = '../corpus/'
+#corpusURL = 'D:\Desktop\Projects\TennisLLM\corpus/'
+corpusURL = '../corpus/'
 
 documents = load_corpus(corpusURL)
 chunks = chunk_text(documents)

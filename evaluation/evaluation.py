@@ -40,4 +40,11 @@ for item in eval_data:
         'themes_missing': [kw for kw in keywords if kw not in themes_found_in_answer]
     })
 
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    output_path = os.path.join(script_dir, 'baseline_evaluation.json')
+
     print(f"{question[:50]:<52} | hit: {source_hit} | score: {groundedness_score:.2f} | missing: {[kw for kw in keywords if kw not in themes_found_in_answer]}")
+
+        
+with open(output_path, 'w') as f:
+    json.dump(results, f, indent=2)

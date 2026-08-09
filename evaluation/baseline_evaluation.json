@@ -1,0 +1,180 @@
+[
+  {
+    "question": "Why is it important to stay balanced in tennis?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "How do I know if I am staying balanced?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "How do I improve my balance",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Why can't I control my topspin forehand",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "How do i stop hitting my topspin forehand so late?",
+    "source_hit": true,
+    "groundedness_score": 0.8,
+    "themes_missing": [
+      "early"
+    ]
+  },
+  {
+    "question": "How do I put more or less spin on my topspin forehand?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "What should my topspin backhand grip be?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "How do I create the wrist lag on the topspin backhand?",
+    "source_hit": true,
+    "groundedness_score": 0.5,
+    "themes_missing": [
+      "push",
+      "drop"
+    ]
+  },
+  {
+    "question": "What is the trophy position in the serve?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Why am I hitting my serves long?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "What is the footwork for the forehand volley?",
+    "source_hit": true,
+    "groundedness_score": 0.6666666666666666,
+    "themes_missing": [
+      "across"
+    ]
+  },
+  {
+    "question": "Why is my forehand volley going in the net and how do I fix it?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "I am catching my backhand volleys late. Can you help me with that?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "What do I do with my non-hitting arm on the backhand volley",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "My forehand slice keeps floating upwards too much. What can I do?",
+    "source_hit": true,
+    "groundedness_score": 0.75,
+    "themes_missing": [
+      "forwards"
+    ]
+  },
+  {
+    "question": "On the forehand slice, I keep shanking the ball. Why does this happen?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Do I need to brush the backhand slice?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Where should my racket face at contact for the backhand slice?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "I keep catching the forehand return late. How can I fix this?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "My opponent hits a very fast serve. And I feel like my feet aren't moving correctly.",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Does the follow through change with the backhand return?",
+    "source_hit": true,
+    "groundedness_score": 0.0,
+    "themes_missing": [
+      "extend",
+      "above shoulder"
+    ]
+  },
+  {
+    "question": "What is the benefit of split stepping before hitting a backhand return?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "What kind of steps should I take when moving backwards to hit a smash?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Does the smash also need a trophy position?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Can you explain how the geometry of the court affects my risk taking in points?",
+    "source_hit": true,
+    "groundedness_score": 0.6666666666666666,
+    "themes_missing": [
+      "height"
+    ]
+  },
+  {
+    "question": "Should I be taking more risk on low balls or less risk?",
+    "source_hit": true,
+    "groundedness_score": 1.0,
+    "themes_missing": []
+  },
+  {
+    "question": "Explain movement in tennis for me?",
+    "source_hit": true,
+    "groundedness_score": 0.5,
+    "themes_missing": [
+      "purpose"
+    ]
+  }
+]

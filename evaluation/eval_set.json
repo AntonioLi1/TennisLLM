@@ -132,7 +132,7 @@
     {
         "question": "Explain movement in tennis for me?",
         "source": "movement.txt",
-        "expected_keywords": ["reason"]
+        "expected_keywords": ["reason", "purpose"]
     }
 ]
     
