@@ -1,12 +1,12 @@
 {
   "config": {
     "chunk_size": 150,
-    "overlap": 30,
-    "n_results": 3
+    "overlap_percentage": 0.2,
+    "n_results": 5
   },
   "scores": {
     "avg_source_hit": 1.0,
-    "avg_groundedness": 0.8846
+    "avg_groundedness": 0.9061728395061729
   },
   "results": [
     {
@@ -56,9 +56,8 @@
     {
       "question": "How do I create the wrist lag on the topspin backhand?",
       "source_hit": true,
-      "groundedness_score": 0.5,
+      "groundedness_score": 0.75,
       "themes_missing": [
-        "push",
         "drop"
       ]
     },
@@ -168,10 +167,8 @@
     {
       "question": "Can you explain how the geometry of the court affects my risk taking in points?",
       "source_hit": true,
-      "groundedness_score": 0.6666666666666666,
-      "themes_missing": [
-        "height"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "Should I be taking more risk on low balls or less risk?",
@@ -188,5 +185,4 @@
       ]
     }
   ]
-} 
-
+}

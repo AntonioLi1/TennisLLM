@@ -1,12 +1,12 @@
 {
   "config": {
-    "chunk_size": 150,
-    "overlap": 30,
-    "n_results": 3
+    "chunk_size": 200,
+    "overlap_percentage": 0.3,
+    "n_results": 5
   },
   "scores": {
-    "avg_source_hit": 1.0,
-    "avg_groundedness": 0.8846
+    "avg_source_hit": 0.9629629629629629,
+    "avg_groundedness": 0.8209876543209877
   },
   "results": [
     {
@@ -30,16 +30,18 @@
     {
       "question": "Why can't I control my topspin forehand",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.5,
+      "themes_missing": [
+        "head",
+        "chest",
+        "still"
+      ]
     },
     {
       "question": "How do i stop hitting my topspin forehand so late?",
       "source_hit": true,
-      "groundedness_score": 0.8,
-      "themes_missing": [
-        "early"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "How do I put more or less spin on my topspin forehand?",
@@ -70,17 +72,20 @@
     },
     {
       "question": "Why am I hitting my serves long?",
-      "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "source_hit": false,
+      "groundedness_score": 0.0,
+      "themes_missing": [
+        "under",
+        "ball",
+        "top",
+        "extend"
+      ]
     },
     {
       "question": "What is the footwork for the forehand volley?",
       "source_hit": true,
-      "groundedness_score": 0.6666666666666666,
-      "themes_missing": [
-        "across"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "Why is my forehand volley going in the net and how do I fix it?",
@@ -111,8 +116,12 @@
     {
       "question": "On the forehand slice, I keep shanking the ball. Why does this happen?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.25,
+      "themes_missing": [
+        "tracking",
+        "space",
+        "still"
+      ]
     },
     {
       "question": "Do I need to brush the backhand slice?",
@@ -141,9 +150,8 @@
     {
       "question": "Does the follow through change with the backhand return?",
       "source_hit": true,
-      "groundedness_score": 0.0,
+      "groundedness_score": 0.5,
       "themes_missing": [
-        "extend",
         "above shoulder"
       ]
     },
@@ -170,7 +178,7 @@
       "source_hit": true,
       "groundedness_score": 0.6666666666666666,
       "themes_missing": [
-        "height"
+        "dimensions"
       ]
     },
     {
@@ -182,11 +190,11 @@
     {
       "question": "Explain movement in tennis for me?",
       "source_hit": true,
-      "groundedness_score": 0.5,
+      "groundedness_score": 0.0,
       "themes_missing": [
+        "reason",
         "purpose"
       ]
     }
   ]
-} 
-
+}

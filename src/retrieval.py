@@ -50,7 +50,7 @@ def question_embedding(question):
 def cosine_similarity(vec_a, vec_b):
     return (np.dot(vec_a, vec_b)) / (np.linalg.norm(vec_a) * np.linalg.norm(vec_b))
 
-def retrieval(question, n_results = 5):
+def retrieval(question, n_results):
     data = load()
     q_embedding = question_embedding(question)
 

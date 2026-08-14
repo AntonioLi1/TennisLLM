@@ -1,12 +1,12 @@
 {
   "config": {
-    "chunk_size": 150,
-    "overlap": 30,
+    "chunk_size": 200,
+    "overlap_percentage": 0.3,
     "n_results": 3
   },
   "scores": {
-    "avg_source_hit": 1.0,
-    "avg_groundedness": 0.8846
+    "avg_source_hit": 0.9629629629629629,
+    "avg_groundedness": 0.7916947250280585
   },
   "results": [
     {
@@ -30,8 +30,11 @@
     {
       "question": "Why can't I control my topspin forehand",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.6666666666666666,
+      "themes_missing": [
+        "follow",
+        "through"
+      ]
     },
     {
       "question": "How do i stop hitting my topspin forehand so late?",
@@ -44,8 +47,11 @@
     {
       "question": "How do I put more or less spin on my topspin forehand?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.5,
+      "themes_missing": [
+        "height",
+        "follow"
+      ]
     },
     {
       "question": "What should my topspin backhand grip be?",
@@ -56,30 +62,34 @@
     {
       "question": "How do I create the wrist lag on the topspin backhand?",
       "source_hit": true,
-      "groundedness_score": 0.5,
-      "themes_missing": [
-        "push",
-        "drop"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "What is the trophy position in the serve?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.9090909090909091,
+      "themes_missing": [
+        "pointing"
+      ]
     },
     {
       "question": "Why am I hitting my serves long?",
-      "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "source_hit": false,
+      "groundedness_score": 0.0,
+      "themes_missing": [
+        "under",
+        "ball",
+        "top",
+        "extend"
+      ]
     },
     {
       "question": "What is the footwork for the forehand volley?",
       "source_hit": true,
       "groundedness_score": 0.6666666666666666,
       "themes_missing": [
-        "across"
+        "incoming"
       ]
     },
     {
@@ -103,16 +113,19 @@
     {
       "question": "My forehand slice keeps floating upwards too much. What can I do?",
       "source_hit": true,
-      "groundedness_score": 0.75,
-      "themes_missing": [
-        "forwards"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "On the forehand slice, I keep shanking the ball. Why does this happen?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.0,
+      "themes_missing": [
+        "tracking",
+        "space",
+        "head",
+        "still"
+      ]
     },
     {
       "question": "Do I need to brush the backhand slice?",
@@ -129,8 +142,10 @@
     {
       "question": "I keep catching the forehand return late. How can I fix this?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.6666666666666666,
+      "themes_missing": [
+        "smaller"
+      ]
     },
     {
       "question": "My opponent hits a very fast serve. And I feel like my feet aren't moving correctly.",
@@ -141,9 +156,8 @@
     {
       "question": "Does the follow through change with the backhand return?",
       "source_hit": true,
-      "groundedness_score": 0.0,
+      "groundedness_score": 0.5,
       "themes_missing": [
-        "extend",
         "above shoulder"
       ]
     },
@@ -170,7 +184,7 @@
       "source_hit": true,
       "groundedness_score": 0.6666666666666666,
       "themes_missing": [
-        "height"
+        "dimensions"
       ]
     },
     {
@@ -182,11 +196,11 @@
     {
       "question": "Explain movement in tennis for me?",
       "source_hit": true,
-      "groundedness_score": 0.5,
+      "groundedness_score": 0.0,
       "themes_missing": [
+        "reason",
         "purpose"
       ]
     }
   ]
-} 
-
+}

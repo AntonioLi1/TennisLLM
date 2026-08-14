@@ -1,25 +1,30 @@
 {
   "config": {
-    "chunk_size": 150,
-    "overlap": 30,
+    "chunk_size": 100,
+    "overlap_percentage": 0.45,
     "n_results": 3
   },
   "scores": {
-    "avg_source_hit": 1.0,
-    "avg_groundedness": 0.8846
+    "avg_source_hit": 0.9629629629629629,
+    "avg_groundedness": 0.7986772486772487
   },
   "results": [
     {
       "question": "Why is it important to stay balanced in tennis?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.6666666666666666,
+      "themes_missing": [
+        "perform"
+      ]
     },
     {
       "question": "How do I know if I am staying balanced?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.7142857142857143,
+      "themes_missing": [
+        "upright",
+        "head"
+      ]
     },
     {
       "question": "How do I improve my balance",
@@ -36,16 +41,20 @@
     {
       "question": "How do i stop hitting my topspin forehand so late?",
       "source_hit": true,
-      "groundedness_score": 0.8,
+      "groundedness_score": 0.6,
       "themes_missing": [
-        "early"
+        "early",
+        "prepare"
       ]
     },
     {
       "question": "How do I put more or less spin on my topspin forehand?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.5,
+      "themes_missing": [
+        "height",
+        "arc"
+      ]
     },
     {
       "question": "What should my topspin backhand grip be?",
@@ -58,8 +67,8 @@
       "source_hit": true,
       "groundedness_score": 0.5,
       "themes_missing": [
-        "push",
-        "drop"
+        "drop",
+        "loose"
       ]
     },
     {
@@ -77,10 +86,8 @@
     {
       "question": "What is the footwork for the forehand volley?",
       "source_hit": true,
-      "groundedness_score": 0.6666666666666666,
-      "themes_missing": [
-        "across"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "Why is my forehand volley going in the net and how do I fix it?",
@@ -111,8 +118,13 @@
     {
       "question": "On the forehand slice, I keep shanking the ball. Why does this happen?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.0,
+      "themes_missing": [
+        "tracking",
+        "space",
+        "head",
+        "still"
+      ]
     },
     {
       "question": "Do I need to brush the backhand slice?",
@@ -134,16 +146,19 @@
     },
     {
       "question": "My opponent hits a very fast serve. And I feel like my feet aren't moving correctly.",
-      "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "source_hit": false,
+      "groundedness_score": 0.0,
+      "themes_missing": [
+        "split",
+        "step",
+        "diagonal"
+      ]
     },
     {
       "question": "Does the follow through change with the backhand return?",
       "source_hit": true,
-      "groundedness_score": 0.0,
+      "groundedness_score": 0.5,
       "themes_missing": [
-        "extend",
         "above shoulder"
       ]
     },
@@ -168,8 +183,9 @@
     {
       "question": "Can you explain how the geometry of the court affects my risk taking in points?",
       "source_hit": true,
-      "groundedness_score": 0.6666666666666666,
+      "groundedness_score": 0.3333333333333333,
       "themes_missing": [
+        "dimensions",
         "height"
       ]
     },
@@ -182,11 +198,8 @@
     {
       "question": "Explain movement in tennis for me?",
       "source_hit": true,
-      "groundedness_score": 0.5,
-      "themes_missing": [
-        "purpose"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     }
   ]
-} 
-
+}

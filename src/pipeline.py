@@ -1,5 +1,5 @@
 from loader import load_corpus
-from chunk import chunk_text
+from chunking import chunk_text
 from embedder import embedder
 from store import store
 from retrieval import retrieval
@@ -9,7 +9,7 @@ from generator import generator
 corpusURL = '../corpus/'
 
 documents = load_corpus(corpusURL)
-chunks = chunk_text(documents)
+chunks = chunk_text(documents, 150, 45) 
 embedded_chunks = embedder(chunks)
 store(embedded_chunks)
 
@@ -23,19 +23,9 @@ while True:
     if question.lower() == 'exit':
         break
 
-    retrieved = retrieval(question)
+    retrieved = retrieval(question, 5) # defaulted to 5
 
     response = generator(retrieved, question)
 
     print(f"response: {response}")
-
-
-# print(f"total chunks: {len(embedded_chunks)}")
-# print("--")
-
-# for embedded_chunk in embedded_chunks:
-#     print(f"Source: {embedded_chunk['source']} | Index: {embedded_chunk['chunk_index']} | Words: {len(embedded_chunk['text'].split())}")
-#     print(embedded_chunk['text'][:100])
-#     print(embedded_chunk['embedding'][:100])    
-#     print("---")
 

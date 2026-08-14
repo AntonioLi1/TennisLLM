@@ -1,6 +1,6 @@
 from retrieval import retrieval
 from loader import load_corpus
-from chunk import chunk_text
+from chunking import chunk_text
 
 results = retrieval("Explain movement in tennis for me?", n_results=5)
 

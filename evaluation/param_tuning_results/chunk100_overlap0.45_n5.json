@@ -1,19 +1,22 @@
 {
   "config": {
-    "chunk_size": 150,
-    "overlap": 30,
-    "n_results": 3
+    "chunk_size": 100,
+    "overlap_percentage": 0.45,
+    "n_results": 5
   },
   "scores": {
     "avg_source_hit": 1.0,
-    "avg_groundedness": 0.8846
+    "avg_groundedness": 0.8858024691358025
   },
   "results": [
     {
       "question": "Why is it important to stay balanced in tennis?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.3333333333333333,
+      "themes_missing": [
+        "perform",
+        "correctly"
+      ]
     },
     {
       "question": "How do I know if I am staying balanced?",
@@ -36,16 +39,16 @@
     {
       "question": "How do i stop hitting my topspin forehand so late?",
       "source_hit": true,
-      "groundedness_score": 0.8,
-      "themes_missing": [
-        "early"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "How do I put more or less spin on my topspin forehand?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.75,
+      "themes_missing": [
+        "arc"
+      ]
     },
     {
       "question": "What should my topspin backhand grip be?",
@@ -56,8 +59,9 @@
     {
       "question": "How do I create the wrist lag on the topspin backhand?",
       "source_hit": true,
-      "groundedness_score": 0.5,
+      "groundedness_score": 0.25,
       "themes_missing": [
+        "hip",
         "push",
         "drop"
       ]
@@ -77,10 +81,8 @@
     {
       "question": "What is the footwork for the forehand volley?",
       "source_hit": true,
-      "groundedness_score": 0.6666666666666666,
-      "themes_missing": [
-        "across"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     },
     {
       "question": "Why is my forehand volley going in the net and how do I fix it?",
@@ -135,15 +137,16 @@
     {
       "question": "My opponent hits a very fast serve. And I feel like my feet aren't moving correctly.",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.6666666666666666,
+      "themes_missing": [
+        "diagonal"
+      ]
     },
     {
       "question": "Does the follow through change with the backhand return?",
       "source_hit": true,
-      "groundedness_score": 0.0,
+      "groundedness_score": 0.5,
       "themes_missing": [
-        "extend",
         "above shoulder"
       ]
     },
@@ -170,7 +173,7 @@
       "source_hit": true,
       "groundedness_score": 0.6666666666666666,
       "themes_missing": [
-        "height"
+        "dimensions"
       ]
     },
     {
@@ -182,11 +185,8 @@
     {
       "question": "Explain movement in tennis for me?",
       "source_hit": true,
-      "groundedness_score": 0.5,
-      "themes_missing": [
-        "purpose"
-      ]
+      "groundedness_score": 1.0,
+      "themes_missing": []
     }
   ]
-} 
-
+}

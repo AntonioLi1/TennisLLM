@@ -1,12 +1,12 @@
 {
   "config": {
     "chunk_size": 150,
-    "overlap": 30,
-    "n_results": 3
+    "overlap_percentage": 0.45,
+    "n_results": 5
   },
   "scores": {
     "avg_source_hit": 1.0,
-    "avg_groundedness": 0.8846
+    "avg_groundedness": 0.8290123456790125
   },
   "results": [
     {
@@ -30,8 +30,10 @@
     {
       "question": "Why can't I control my topspin forehand",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.8333333333333334,
+      "themes_missing": [
+        "follow"
+      ]
     },
     {
       "question": "How do i stop hitting my topspin forehand so late?",
@@ -56,8 +58,9 @@
     {
       "question": "How do I create the wrist lag on the topspin backhand?",
       "source_hit": true,
-      "groundedness_score": 0.5,
+      "groundedness_score": 0.25,
       "themes_missing": [
+        "hip",
         "push",
         "drop"
       ]
@@ -71,14 +74,17 @@
     {
       "question": "Why am I hitting my serves long?",
       "source_hit": true,
-      "groundedness_score": 1.0,
-      "themes_missing": []
+      "groundedness_score": 0.75,
+      "themes_missing": [
+        "top"
+      ]
     },
     {
       "question": "What is the footwork for the forehand volley?",
       "source_hit": true,
-      "groundedness_score": 0.6666666666666666,
+      "groundedness_score": 0.3333333333333333,
       "themes_missing": [
+        "forward",
         "across"
       ]
     },
@@ -170,7 +176,7 @@
       "source_hit": true,
       "groundedness_score": 0.6666666666666666,
       "themes_missing": [
-        "height"
+        "dimensions"
       ]
     },
     {
@@ -182,11 +188,11 @@
     {
       "question": "Explain movement in tennis for me?",
       "source_hit": true,
-      "groundedness_score": 0.5,
+      "groundedness_score": 0.0,
       "themes_missing": [
+        "reason",
         "purpose"
       ]
     }
   ]
-} 
-
+}

@@ -1,6 +1,6 @@
 import os
 
-def chunk_text(documents, chunk_size = 150, overlap=30):
+def chunk_text(documents, chunk_size, overlap):
     chunked_document = []
     for document in documents:
         text_pointer_start = 0
@@ -18,7 +18,9 @@ def chunk_text(documents, chunk_size = 150, overlap=30):
             if text_pointer_end > length:
                 text_pointer_end = length
             
-            
+            # print(f"text_pointer_start: {type(text_pointer_start)}")
+            # print(f"text_pointer_end: {type(text_pointer_end)}")
+
             chunk_words = words[text_pointer_start:text_pointer_end]
             chunk_body = ' '.join(chunk_words)
             chunked_text = f"{cleaned_doc_name}: {chunk_body}"
@@ -31,6 +33,8 @@ def chunk_text(documents, chunk_size = 150, overlap=30):
             })
             text_pointer_start += (chunk_size - overlap)
             chunk_index = chunk_index + 1
+            # print(f"text_pointer_startEND: {type(text_pointer_start)}")
+            # print(f"text_pointer_endEND: {type(text_pointer_end)}")
 
     return chunked_document
 
