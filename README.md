@@ -29,3 +29,4 @@ Python, sentence-transformers, numpy, Anthropic API (Claude Haiku), JSON-based s
 Future Work:
 - Fine tuning: LoRA fine-tuning an open-weights model (Llama 3.2 / Mistral 7B) on a curated Q&A dataset derived from the evaluation set, compared against the current RAG-only approach.
 - Expansion of corpus and topics to meet client demands
+- I noticed the architecture doesn't guarantee cross-document retrieval for comparison questions, and the fix would be query decomposition — detecting comparison intent and retrieving separately per topic before combining
